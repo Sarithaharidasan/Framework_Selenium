@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Suite" annotations="JDK" parallel="tests">
+  <test name="Test1">
+  <classes>
+  <class name="Runner_Files.Landing_welcome_positive_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+  <classes>
+  <class name="Runner_Files.Login_positive_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test3">
+  <classes>
+  <class name="Runner_Files.Login_negative_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test4">
+  <classes>
+  <class name="Runner_Files.Signup_positive_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test5">
+  <classes>
+  <class name="Runner_Files.Signup_negative_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test6">
+  <classes>
+  <class name="Runner_Files.Forgot_password_negative_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
